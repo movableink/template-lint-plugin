@@ -1,4 +1,4 @@
-# `no-expression-line-strings`
+# `no-expression-like-strings`
 
 This lint rule helps catch typos around Handlebars expressions that are missing the initial curly brace.
 
