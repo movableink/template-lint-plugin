@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "files": [
+    "index.js",
+    "lib"
+  ],
   "scripts": {
     "lint:js": "eslint .",
     "test": "jest",
