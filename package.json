@@ -1,0 +1,44 @@
+{
+  "name": "@movable/template-lint-plugin",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint:js": "eslint .",
+    "test": "jest",
+    "release": "standard-version"
+  },
+  "dependencies": {
+    "ember-template-lint": "^1.6.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "husky": "^3.0.9",
+    "jest": "^24.9.0",
+    "lint-staged": "^9.4.2",
+    "prettier": "^1.18.2",
+    "standard-version": "^7.0.0",
+    "theredoc": "^1.0.0"
+  },
+  "engines": {
+    "node": ">= 10.16"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.{md,json}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
