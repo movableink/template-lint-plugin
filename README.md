@@ -14,9 +14,10 @@ This is a collection of custom [`ember-template-lint`](https://github.com/ember-
 
 The following sets of rules are available for your `ember-template-lint` configuration to extend from:
 
-| Name                   | Description                                           |
-| :--------------------- | :---------------------------------------------------- |
-| `avoid-possible-typos` | Rules meant to catch possible typos in your templates |
+| Name                   | Description                                                |
+| :--------------------- | :--------------------------------------------------------- |
+| `avoid-possible-typos` | Rules meant to catch possible typos in your templates      |
+| `base`                 | The base set of rules used across all Movable Ink projects |
 
 ## Usage
 
