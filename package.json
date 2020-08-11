@@ -22,7 +22,7 @@
     "husky": "^4.2.5",
     "jest": "^24.9.0",
     "lint-staged": "^10.2.11",
-    "standard-version": "^7.0.0",
+    "standard-version": "^8.0.2",
     "theredoc": "^1.0.0"
   },
   "husky": {
@@ -33,5 +33,10 @@
   "lint-staged": {
     "*.js": "eslint --fix",
     "*.{md,json}": "prettier --write"
+  },
+  "standard-version": {
+    "scripts": {
+      "postchangelog": "prettier --write CHANGELOG.md"
+    }
   }
 }
