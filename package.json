@@ -13,7 +13,7 @@
     "release": "standard-version"
   },
   "dependencies": {
-    "ember-template-lint": "^1.6.2"
+    "ember-template-lint": "^2.0.0"
   },
   "devDependencies": {
     "@movable/eslint-config": "^0.6.4",
