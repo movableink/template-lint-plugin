@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/movableink/template-lint-plugin/compare/v1.1.0...v2.0.0) (2020-08-11)
+
+### ⚠ BREAKING CHANGES
+
+- **deps:** Bump minimum version of `ember-template-lint` tested against to 2.0.0
+
+- **deps:** upgrade `ember-template-lint` dependency ([49ee06b](https://github.com/movableink/template-lint-plugin/commit/49ee06b84d8218920784c954c4e24cf9c3610968))
+
 ## [1.1.0](https://github.com/movableink/template-lint-plugin/compare/v1.0.0...v1.1.0) (2019-11-07)
 
 ### Features
