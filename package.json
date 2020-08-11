@@ -16,19 +16,14 @@
     "ember-template-lint": "^1.6.2"
   },
   "devDependencies": {
-    "eslint": "^6.6.0",
-    "eslint-config-prettier": "^6.5.0",
-    "eslint-plugin-node": "^10.0.0",
-    "eslint-plugin-prettier": "^3.1.1",
-    "husky": "^3.0.9",
+    "@movable/eslint-config": "^0.6.4",
+    "@movable/eslint-config-node": "^0.4.3",
+    "@movable/prettier-config": "^0.3.2",
+    "husky": "^4.2.5",
     "jest": "^24.9.0",
-    "lint-staged": "^9.4.2",
-    "prettier": "^1.18.2",
+    "lint-staged": "^10.2.11",
     "standard-version": "^7.0.0",
     "theredoc": "^1.0.0"
-  },
-  "engines": {
-    "node": ">= 10.16"
   },
   "husky": {
     "hooks": {
@@ -36,13 +31,7 @@
     }
   },
   "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "git add"
-    ],
-    "*.{md,json}": [
-      "prettier --write",
-      "git add"
-    ]
+    "*.js": "eslint --fix",
+    "*.{md,json}": "prettier --write"
   }
 }

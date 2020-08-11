@@ -33,19 +33,16 @@ Then, include the plugin in your `.template-lintrc.js`
 // .template-lintrc.js
 
 module.exports = {
-  plugins: [
-    '@movable/template-lint-plugin'
-  ],
+  plugins: ['@movable/template-lint-plugin'],
 
   extends: [
     // You can extend a whole set of rules
-    '@movable/template-lint-plugin:avoid-possible-typos'
+    '@movable/template-lint-plugin:avoid-possible-typos',
   ],
 
   rules: [
     // ... Or just the ones you want
-    'no-expression-like-strings': true
+    ('no-expression-like-strings': true),
   ],
-
-}
+};
 ```

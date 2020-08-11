@@ -1,9 +1,7 @@
 'use strict';
 
 const generateRuleTests = require('../../helpers/rule-test-harness');
-const {
-  ERROR_MESSAGE
-} = require('../../../lib/rules/no-expression-like-strings');
+const { ERROR_MESSAGE } = require('../../../lib/rules/no-expression-like-strings');
 
 generateRuleTests({
   name: 'no-expression-like-strings',
@@ -18,8 +16,8 @@ generateRuleTests({
         message: ERROR_MESSAGE,
         line: 1,
         column: 0,
-        source: '{value}}'
-      }
+        source: '{value}}',
+      },
     },
     {
       template: '{value}',
@@ -27,8 +25,8 @@ generateRuleTests({
         message: ERROR_MESSAGE,
         line: 1,
         column: 0,
-        source: '{value}'
-      }
+        source: '{value}',
+      },
     },
     {
       template: '   {value}}   ',
@@ -36,8 +34,8 @@ generateRuleTests({
         message: ERROR_MESSAGE,
         line: 1,
         column: 0,
-        source: '   {value}}   '
-      }
+        source: '   {value}}   ',
+      },
     },
     {
       template: '<FooBar @prop={foo}} />',
@@ -45,8 +43,8 @@ generateRuleTests({
         message: ERROR_MESSAGE,
         line: 1,
         column: 14,
-        source: '{foo}}'
-      }
+        source: '{foo}}',
+      },
     },
     {
       template: '<h1>{title}}</h1>',
@@ -54,8 +52,8 @@ generateRuleTests({
         message: ERROR_MESSAGE,
         line: 1,
         column: 4,
-        source: '{title}}'
-      }
-    }
-  ]
+        source: '{title}}',
+      },
+    },
+  ],
 });
