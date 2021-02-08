@@ -13,9 +13,13 @@ module.exports = {
         'no-expression-like-strings': true,
       },
     },
-
+    'avoid-b-and-i-tags': {
+      rules: {
+        'no-forbidden-elements': ['b', 'i']
+      }
+    },
     base: {
-      extends: ['recommended', '@movable/template-lint-plugin:avoid-possible-typos'],
+      extends: ['recommended', '@movable/template-lint-plugin:avoid-possible-typos', '@movable/template-lint-plugin:avoid-b-and-i-tags'],
       rules: {
         // Overrides to built-in "recommended" rules
         'no-inline-styles': {
