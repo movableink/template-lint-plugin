@@ -18,7 +18,7 @@ The following sets of rules are available for your `ember-template-lint` configu
 | Name                   | Description                                                          |
 | :--------------------- | :------------------------------------------------------------------- |
 | `avoid-possible-typos` | Rules meant to catch possible typos in your templates                |
-| `avoid-b-and-i-tags`   | Rules meant to catch `<b>` and `<i>` tags, use `<strong>` and `<em>` |
+| `avoid-deprecated-elements`   | Rules meant to catch `<b>` and `<i>` tags, use `<strong>` and `<em>` |
 | `base`                 | The base set of rules used across all Movable Ink projects           |
 
 ## Usage
@@ -40,7 +40,7 @@ module.exports = {
   extends: [
     // You can extend a whole set of rules
     '@movable/template-lint-plugin:avoid-possible-typos',
-    '@movable/template-lint-plugin:avoid-b-and-i-tags',
+    '@movable/template-lint-plugin:avoid-deprecated-elements',
   ],
 
   rules: [
