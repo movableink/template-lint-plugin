@@ -15,11 +15,15 @@ module.exports = {
     },
     'avoid-deprecated-elements': {
       rules: {
-        'no-forbidden-elements': ['b', 'i']
-      }
+        'no-forbidden-elements': ['b', 'i'],
+      },
     },
     base: {
-      extends: ['recommended', '@movable/template-lint-plugin:avoid-possible-typos', '@movable/template-lint-plugin:avoid-deprecated-elements'],
+      extends: [
+        'recommended',
+        '@movable/template-lint-plugin:avoid-possible-typos',
+        '@movable/template-lint-plugin:avoid-deprecated-elements',
+      ],
       rules: {
         // Overrides to built-in "recommended" rules
         'no-inline-styles': {
