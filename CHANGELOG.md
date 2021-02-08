@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/movableink/template-lint-plugin/compare/v2.0.0...v2.1.0) (2021-02-08)
+
+### Features
+
+- added <b>, <i> tags to forbidden, this is to prevent these tags being used. This is out of spec with HTML5 and causes accessiblity concerns ([576974f](https://github.com/movableink/template-lint-plugin/commit/576974fb2eb13a679fe96ad374155db76a342a4f))
+
+### Bug Fixes
+
+- lint issues ([abf7dd5](https://github.com/movableink/template-lint-plugin/commit/abf7dd5169db8a876f256a8ac49361b4aa8270ec))
+
 ## [2.0.0](https://github.com/movableink/template-lint-plugin/compare/v1.1.0...v2.0.0) (2020-08-11)
 
 ### ⚠ BREAKING CHANGES
