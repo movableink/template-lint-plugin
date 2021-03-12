@@ -5,6 +5,7 @@ module.exports = {
 
   rules: {
     'no-expression-like-strings': require('./lib/rules/no-expression-like-strings'),
+    'require-purgeable-class-names': require('./lib/rules/require-purgeable-class-names'),
   },
 
   configurations: {
@@ -25,6 +26,8 @@ module.exports = {
         '@movable/template-lint-plugin:avoid-deprecated-elements',
       ],
       rules: {
+        'require-purgeable-class-names': true,
+
         // Overrides to built-in "recommended" rules
         'no-inline-styles': {
           allowDynamicStyles: true,
