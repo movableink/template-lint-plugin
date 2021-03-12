@@ -16,7 +16,7 @@
     "ember-template-lint": "^2.0.0"
   },
   "devDependencies": {
-    "@movable/eslint-config": "^0.6.4",
+    "@movable/eslint-config": "^0.6.10",
     "@movable/eslint-config-node": "^0.4.3",
     "@movable/prettier-config": "^0.3.2",
     "husky": "^4.2.5",
