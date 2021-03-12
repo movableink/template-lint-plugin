@@ -6,10 +6,10 @@ This is a collection of custom [`ember-template-lint`](https://github.com/ember-
 
 ## Rules
 
-| Name                                                                                                                                                       | Description                                                                 |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------- |
-| [`no-expression-like-strings`](./docs/rules/no-expression-like-strings.md)                                                                                 | Catch strings that you probably meant to be Handlebars expressions          |
-| [`no-forbidden-elements`](https://github.com/ember-template-lint/ember-template-lint/blob/master/docs/rule/no-forbidden-elements.md#no-forbidden-elements) | Catch `<b>, <i>` that you probably meant to be `<strong>, <em>` expressions |
+| Name                                                                       | Description                                                                 |
+| :------------------------------------------------------------------------- | :-------------------------------------------------------------------------- |
+| [`no-expression-like-strings`](./docs/rules/no-expression-like-strings.md) | Catch strings that you probably meant to be Handlebars expressions          |
+| [`no-forbidden-elements`][no-forbidden-elements-docs]                      | Catch `<b>, <i>` that you probably meant to be `<strong>, <em>` expressions |
 
 ## Configurations
 
@@ -49,3 +49,5 @@ module.exports = {
   ],
 };
 ```
+
+[no-forbidden-elements-docs]: https://github.com/ember-template-lint/ember-template-lint/blob/master/docs/rule/no-forbidden-elements.md#no-forbidden-elements
