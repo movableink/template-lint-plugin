@@ -18,7 +18,7 @@
   "devDependencies": {
     "@movable/eslint-config": "^0.6.4",
     "@movable/eslint-config-node": "^0.4.3",
-    "@movable/prettier-config": "^0.3.2",
+    "@movable/prettier-config": "^0.3.6",
     "husky": "^4.2.5",
     "jest": "^24.9.0",
     "lint-staged": "^10.2.11",
