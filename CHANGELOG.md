@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://github.com/movableink/template-lint-plugin/compare/v2.1.0...v3.0.0) (2021-03-15)
+
+### Features
+
+- add `require-purgeable-class-names` rule ([aa76c23](https://github.com/movableink/template-lint-plugin/commit/aa76c2306e73c6890b0b9ad8ca7de798ef957ee1))
+
 ## [2.1.0](https://github.com/movableink/template-lint-plugin/compare/v2.0.0...v2.1.0) (2021-02-08)
 
 ### Features
