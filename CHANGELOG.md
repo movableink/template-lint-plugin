@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.1](https://github.com/movableink/template-lint-plugin/compare/v3.0.0...v3.0.1) (2021-03-23)
+
+### Bug Fixes
+
+- extend from 2.X recommended config ([692e800](https://github.com/movableink/template-lint-plugin/commit/692e8007cf67289ad91a805224189dc1c0bde035))
+
 ## [3.0.0](https://github.com/movableink/template-lint-plugin/compare/v2.1.0...v3.0.0) (2021-03-15)
 
 ### Features
