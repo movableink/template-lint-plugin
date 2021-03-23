@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.2](https://github.com/movableink/template-lint-plugin/compare/v3.0.1...v3.0.2) (2021-03-23)
+
+### Bug Fixes
+
+- handle adjacent mustache statements ([32aa408](https://github.com/movableink/template-lint-plugin/commit/32aa4086bdeb9f48ea583f7be4a8612c3e4bdb3e))
+
 ### [3.0.1](https://github.com/movableink/template-lint-plugin/compare/v3.0.0...v3.0.1) (2021-03-23)
 
 ### Bug Fixes
