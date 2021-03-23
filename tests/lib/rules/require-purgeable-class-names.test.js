@@ -16,6 +16,7 @@ generateRuleTests({
         {{color}}
       "
       />`,
+    `<div class="{{first}}{{second}}" />`,
     `<div some-other-attribute="bg-{{color}}" />`,
     `<MyComponent @className="bg-red" />`,
   ],
