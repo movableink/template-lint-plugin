@@ -21,7 +21,7 @@ module.exports = {
     },
     base: {
       extends: [
-        'recommended',
+        '2-x-recommended',
         '@movable/template-lint-plugin:avoid-possible-typos',
         '@movable/template-lint-plugin:avoid-deprecated-elements',
       ],
