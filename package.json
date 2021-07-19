@@ -22,7 +22,7 @@
     "@movable/prettier-config": "^0.3.2",
     "husky": "^6.0.0",
     "jest": "^27.0.5",
-    "lint-staged": "^11.0.0",
+    "lint-staged": "^11.0.1",
     "standard-version": "^9.3.0",
     "theredoc": "^1.0.0"
   },
