@@ -14,7 +14,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "ember-template-lint": "^3.14.0"
+    "ember-template-lint": "^3.15.0"
   },
   "devDependencies": {
     "@movable/eslint-config": "^0.6.10",
