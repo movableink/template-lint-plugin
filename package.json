@@ -35,9 +35,12 @@
       "postchangelog": "prettier --write CHANGELOG.md"
     }
   },
+  "engines": {
+    "node": ">= 14"
+  },
   "volta": {
     "node": "14.19.3",
     "yarn": "1.22.10"
   },
-  "packageManager": "yarn@3.1.1"
+  "packageManager": "yarn@3.2.1"
 }
