@@ -1,7 +1,5 @@
-'use strict';
-
-const generateRuleTests = require('../../helpers/rule-test-harness');
-const { ERROR_MESSAGE } = require('../../../lib/rules/no-expression-like-strings');
+import generateRuleTests from '../../helpers/rule-test-harness';
+import { ERROR_MESSAGE } from '../../../lib/rules/no-expression-like-strings';
 
 generateRuleTests({
   name: 'no-expression-like-strings',

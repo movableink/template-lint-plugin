@@ -1,5 +1,9 @@
 {
   "extends": ["@movable/eslint-config", "@movable/eslint-config-node"],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2021
+  },
   "overrides": [
     {
       "files": ["tests/**/*.js"],

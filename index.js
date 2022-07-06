@@ -1,11 +1,12 @@
-'use strict';
+import NoExpressionLikeStrings from './lib/rules/no-expression-like-strings';
+import RequirePurgeableClassNames from './lib/rules/require-purgeable-class-names';
 
-module.exports = {
+export default {
   name: '@movable/template-lint-plugin',
 
   rules: {
-    'no-expression-like-strings': require('./lib/rules/no-expression-like-strings'),
-    'require-purgeable-class-names': require('./lib/rules/require-purgeable-class-names'),
+    'no-expression-like-strings': NoExpressionLikeStrings,
+    'require-purgeable-class-names': RequirePurgeableClassNames,
   },
 
   configurations: {

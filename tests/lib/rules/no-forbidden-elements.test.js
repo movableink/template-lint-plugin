@@ -1,9 +1,5 @@
-'use strict';
-
-const {
-  ERROR_MESSAGE_FORBIDDEN_ELEMENTS,
-} = require('ember-template-lint/lib/rules/no-forbidden-elements');
-const generateRuleTests = require('../../helpers/rule-test-harness');
+import { ERROR_MESSAGE_FORBIDDEN_ELEMENTS } from 'ember-template-lint/lib/rules/no-forbidden-elements';
+import generateRuleTests from '../../helpers/rule-test-harness';
 
 generateRuleTests({
   name: 'no-forbidden-elements',

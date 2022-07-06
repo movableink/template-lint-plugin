@@ -1,7 +1,5 @@
-'use strict';
-
-const generateRuleTests = require('../../helpers/rule-test-harness');
-const { ERROR_MESSAGE } = require('../../../lib/rules/require-purgeable-class-names');
+import generateRuleTests from '../../helpers/rule-test-harness';
+import { ERROR_MESSAGE } from '../../../lib/rules/require-purgeable-class-names';
 
 generateRuleTests({
   name: 'require-purgeable-class-names',
