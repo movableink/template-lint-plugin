@@ -22,7 +22,7 @@
     "@movable/prettier-config": "^0.3.2",
     "eslint": "^7.32.0",
     "husky": "^7.0.4",
-    "jest": "^27.5.1",
+    "jest": "^28.1.2",
     "lint-staged": "^12.3.7",
     "prettier": "^2.7.1",
     "standard-version": "^9.3.2",
