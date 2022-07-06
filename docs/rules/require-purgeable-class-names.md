@@ -7,13 +7,13 @@ This lint rules helps ensure that CSS classes are not concatenated dynamically a
 ### Forbidden
 
 ```hbs
-<div class="text-white bg-{{color}}"></div>
+<div class='text-white bg-{{color}}'></div>
 ```
 
 ### Allowed
 
 ```hbs
-<div class="text-white {{if @error "bg-red" "bg-black"}}"></div>
+<div class='text-white {{if @error "bg-red" "bg-black"}}'></div>
 ```
 
 ## When Not To Use This

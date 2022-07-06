@@ -5,13 +5,13 @@ This lint rule helps catch typos around Handlebars expressions that are missing 
 If you happen to accidentally put something like this in your template:
 
 ```handlebars
-<FooBar @prop={value}} />
+<FooBar @prop='{value}}' />
 ```
 
 Or this:
 
 ```handlebars
-<FooBar @prop={value} />
+<FooBar @prop='{value}' />
 ```
 
 You _probably_ wanted to actually write this instead:
