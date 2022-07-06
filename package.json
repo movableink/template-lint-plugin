@@ -36,7 +36,11 @@
     }
   },
   "volta": {
-    "node": "12.22.0",
+    "node": "14.19.3",
     "yarn": "1.22.10"
-  }
+  },
+  "engines": {
+    "node": ">= 14"
+  },
+  "packageManager": "yarn@3.2.1"
 }
