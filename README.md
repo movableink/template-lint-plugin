@@ -16,11 +16,12 @@ This is a collection of custom [`ember-template-lint`](https://github.com/ember-
 
 The following sets of rules are available for your `ember-template-lint` configuration to extend from:
 
-| Name                        | Description                                                          |
-| :-------------------------- | :------------------------------------------------------------------- |
-| `avoid-possible-typos`      | Rules meant to catch possible typos in your templates                |
-| `avoid-deprecated-elements` | Rules meant to catch `<b>` and `<i>` tags, use `<strong>` and `<em>` |
-| `base`                      | The base set of rules used across all Movable Ink projects           |
+| Name                        | Description                                                            |
+| :-------------------------- | :--------------------------------------------------------------------- |
+| `avoid-possible-typos`      | Rules meant to catch possible typos in your templates                  |
+| `avoid-deprecated-elements` | Rules meant to catch `<b>` and `<i>` tags, use `<strong>` and `<em>`   |
+| `svg-aria-required`         | Rules meant to catch svgs without an `aria-label` or `aria-labelledby` |
+| `base`                      | The base set of rules used across all Movable Ink projects             |
 
 ## Usage
 
@@ -42,6 +43,7 @@ module.exports = {
     // You can extend a whole set of rules
     '@movable/template-lint-plugin:avoid-possible-typos',
     '@movable/template-lint-plugin:avoid-deprecated-elements',
+    '@movable/template-lint-plugin:svg-aria-required',
   ],
 
   rules: [
