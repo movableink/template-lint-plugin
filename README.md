@@ -11,6 +11,7 @@ This is a collection of custom [`ember-template-lint`](https://github.com/ember-
 | [`no-expression-like-strings`](./docs/rules/no-expression-like-strings.md)       | Catch strings that you probably meant to be Handlebars expressions          |
 | [`no-forbidden-elements`][no-forbidden-elements-docs]                            | Catch `<b>, <i>` that you probably meant to be `<strong>, <em>` expressions |
 | [`require-purgeable-class-names`](./docs/rules/require-purgeable-class-names.md) | Require class names are written such that they can be detected by PurgeCSS  |
+| [`svg-aria-required`](./docs/rules/svg-aria-required.md)                         | Require all svgs to have aria label attributes                              |
 
 ## Configurations
 
