@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.0.0](https://github.com/movableink/template-lint-plugin/compare/v3.0.2...v4.0.0) (2022-09-21)
+
+### ⚠ BREAKING CHANGES
+
+- bumping our lint config
+- dropping node <12 support
+
+### Features
+
+- **svg-aria-required:** create rule for svg aria labels ([313cbb8](https://github.com/movableink/template-lint-plugin/commit/313cbb8aca48eada1741b7146363db884127104c))
+- bumping node version ([18c0e25](https://github.com/movableink/template-lint-plugin/commit/18c0e25fca2697c45afc7a13483e26175a6a9a12))
+
+### Bug Fixes
+
+- **lint:** prettier ([97cc511](https://github.com/movableink/template-lint-plugin/commit/97cc511c8c0f33c42c5b8fe891dfff83dcfa241a))
+- added gitignore ([42a109a](https://github.com/movableink/template-lint-plugin/commit/42a109a3e0a828916ab9d47b96181cbdd784394c))
+- added interactive tools ([b61a71d](https://github.com/movableink/template-lint-plugin/commit/b61a71d20a2914bd246891c95b33a23d0931d734))
+- bumping our lint config ([24a0369](https://github.com/movableink/template-lint-plugin/commit/24a036952743c13a674b0d58fd573a107d4b3335))
+- dropping node <12 support ([a47ff76](https://github.com/movableink/template-lint-plugin/commit/a47ff7698d17e161336f49f10ae6aad71262a1bf))
+
 ### [3.0.2](https://github.com/movableink/template-lint-plugin/compare/v3.0.1...v3.0.2) (2021-03-23)
 
 ### Bug Fixes
