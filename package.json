@@ -20,7 +20,7 @@
     "@movable/eslint-config": "^2.0.0",
     "@movable/eslint-config-node": "^1.0.0",
     "@movable/prettier-config": "^1.0.0",
-    "eslint": "^8.33.0",
+    "eslint": "^8.35.0",
     "husky": "^8.0.3",
     "jest": "^29.4.3",
     "lint-staged": "^13.1.2",
