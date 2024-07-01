@@ -1119,13 +1119,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@movable/prettier-config@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@movable/prettier-config@npm:2.0.0"
+  peerDependencies:
+    prettier: ^2 || ^3
+  checksum: 47262be6b6d1fa1727fbecc4833e33ef7e15b567026da32d15a0d3ffe7916a4628b936a1b374b4bb0b8d1760e6ba8a5a0433bb4a5a35fbfc83ed52952e5c8459
+  languageName: node
+  linkType: hard
+
 "@movable/template-lint-plugin@workspace:.":
   version: 0.0.0-use.local
   resolution: "@movable/template-lint-plugin@workspace:."
   dependencies:
     "@movable/eslint-config": ^2.0.0
     "@movable/eslint-config-node": ^1.0.0
-    "@movable/prettier-config": ^1.0.0
+    "@movable/prettier-config": ^2.0.0
     ember-template-lint: ^3.16.0
     eslint: ^8.37.0
     husky: ^8.0.3
